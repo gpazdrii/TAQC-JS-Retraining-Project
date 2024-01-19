@@ -1,0 +1,28 @@
+{
+  "name": "taqc-js-retraining-project",
+  "version": "1.0.0",
+  "description": "Gpazdrii test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "cypress:run": "npx cypress run",
+    "cypress:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpazdrii/TAQC-JS-Retraining-Project.git"
+  },
+  "author": "gpazdrii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpazdrii/TAQC-JS-Retraining-Project/issues"
+  },
+  "homepage": "https://github.com/gpazdrii/TAQC-JS-Retraining-Project#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "cypress": "^13.6.1"
+  },
+  "dependencies": {
+    "cypress-fixture-faker": "^1.0.2"
+  }
+}
